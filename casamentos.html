@@ -10,49 +10,56 @@
 <body>
 
 <header>
-  <div class="container header-container">
-    <h1 class="logo">Lucas Barbosa</h1>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html#home">Home</a></li>
-        <li><a href="index.html#about">Sobre Mim</a></li>
-        <li><a href="casamentos.html" class="active">Casamentos</a></li>
-        <li><a href="prewedding.html">Pré-Weddings</a></li>
-        <li><a href="index.html#contact">Contato</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<section class="portfolio-section fade-in">
+  <section class="portfolio-section fade-in">
   <div class="container">
     <h2>Casamentos</h2>
-    <div class="portfolio-grid">
-      <div class="portfolio-item">
-        <img src="images/casamento1-400.webp" 
-             alt="Casamento 1" loading="lazy"
-             srcset="images/casamento1-400.webp 400w, images/casamento1-800.webp 800w"
-             sizes="(max-width:768px) 400px, 800px">
-      </div>
-      <div class="portfolio-item">
-        <img src="images/casamento2-400.webp" 
-             alt="Casamento 2" loading="lazy"
-             srcset="images/casamento2-400.webp 400w, images/casamento2-800.webp 800w"
-             sizes="(max-width:768px) 400px, 800px">
-      </div>
-      <div class="portfolio-item">
-        <img src="images/casamento3-400.webp" 
-             alt="Casamento 3" loading="lazy"
-             srcset="images/casamento3-400.webp 400w, images/casamento3-800.webp 800w"
-             sizes="(max-width:768px) 400px, 800px">
-      </div>
-      <div class="portfolio-item">
-        <img src="images/casamento4-400.webp" 
-             alt="Casamento 4" loading="lazy"
-             srcset="images/casamento4-400.webp 400w, images/casamento4-800.webp 800w"
-             sizes="(max-width:768px) 400px, 800px">
+
+    <!-- Galeria 1 -->
+    <div class="gallery">
+      <h3>Ana & João</h3>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/casamento1-400.webp" alt="Casamento 1"
+               srcset="images/casamento1-400.webp 400w, images/casamento1-800.webp 800w"
+               sizes="(max-width:768px) 400px, 800px">
+        </div>
+        <div class="portfolio-item">
+          <img src="images/casamento2-400.webp" alt="Casamento 2"
+               srcset="images/casamento2-400.webp 400w, images/casamento2-800.webp 800w"
+               sizes="(max-width:768px) 400px, 800px">
+        </div>
       </div>
     </div>
+
+    <!-- Galeria 2 -->
+    <div class="gallery">
+      <h3>Mariana & Pedro</h3>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/casamento3-400.webp" alt="Casamento 3"
+               srcset="images/casamento3-400.webp 400w, images/casamento3-800.webp 800w"
+               sizes="(max-width:768px) 400px, 800px">
+        </div>
+        <div class="portfolio-item">
+          <img src="images/casamento4-400.webp" alt="Casamento 4"
+               srcset="images/casamento4-400.webp 400w, images/casamento4-800.webp 800w"
+               sizes="(max-width:768px) 400px, 800px">
+        </div>
+      </div>
+    </div>
+
+    <!-- Padrão que se repete para cada galeria -->
+    <!--  Para adicionar outro casal, basta copiar uma galeria inteira -->
+    <!--
+    <div class="gallery">
+      <h3>Nome do Casal</h3>
+      <div class="portfolio-grid">
+        <div class="portfolio-item"><img src="images/..."></div>
+        <div class="portfolio-item"><img src="images/..."></div>
+      </div>
+    </div>
+    -->
+
   </div>
 </section>
 
